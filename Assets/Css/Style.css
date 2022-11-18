@@ -87,7 +87,7 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
     padding-top: 80px;
   }
 
@@ -114,6 +114,20 @@
     justify-content: center; /*horizontal*/
     display: flex; /*syarat memakai align items dan justify content*/
     font-size: 20px;
+    margin-top: 60px;
+  }
+
+  .pend{
+    margin-top: 60px;
+    color: #d49367;
+  }
+
+  .peng{
+    color: #d49367;
+  }
+
+  .skill{
+    color: #d49367;
   }
 
   .smk{
@@ -155,6 +169,10 @@
 
   .vh-tentang{
     height: 100vh;
+  }
+
+  .vh-tentang-isi{
+    height: 80vh;
     background-color: #FFFBE9;
   }
 
@@ -199,6 +217,12 @@
     background-image: url(../Image/Laundry.jpg);
     background-position: center;
     background-size: cover;
+    transition: 2s;
+  }
+
+  .bg-1:hover{
+    width: 42%;
+    height: 320px;
   }
 
   .bg-2{
@@ -206,6 +230,12 @@
     background-position: center;
     background-size: cover;
     margin-bottom: 40px;
+    transition: 2s;
+  }
+
+  .bg-2:hover{
+    width: 42%;
+    height: 320px;
   }
 
   .flex-bg{
@@ -218,6 +248,12 @@
     background-image: url(../Image/pembayaran_listrik.jpg);
     background-position: center;
     background-size: cover;
+    transition: 2s;
+  }
+
+  .bg-3:hover{
+    width: 42%;
+    height: 320px;
   }
 
   .bg-4{
@@ -225,17 +261,22 @@
     background-position: center;
     background-size: cover;
     margin-bottom: 50px;
+    transition: 2s;
+  }
+
+  .bg-4:hover{
+    width: 42%;
+    height: 320px;
   }
 
   .vh-kontak{
-    height: 100vh;
+    height: 110vh;
   }
 
   .kontak{
     align-items: center;
     display: flex;
     flex-direction: column;
-    margin-bottom: 30px;
     padding-top: 80px;
   }
 
@@ -426,4 +467,39 @@
 
   .h-80{
     height: 220px;
+  }
+
+  .h-15{
+    height: 240px;
+  }
+
+  .w-25{
+    width: 240px;
+  }
+
+  .profile-1{
+    background-image: url(../Image/3.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 6px dashed;
+  }
+
+  .profile-2{
+    background-image: url(../Image/1.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 6px dashed;
+  }
+
+  .profile-3{
+    background-image: url(../Image/2.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 6px dashed;
+  }
+
+  .tengah{
+    justify-content: center;
+    margin-bottom: 55px;
+    gap: 40px;
   }
